@@ -231,3 +231,20 @@ padding: 10px 25px;
         justify-content: space-between;
     }
 }
+@media (max-width:408px) {
+    .w-fit-100{
+        width:30%;
+    }
+    .man-up-horse,.wave-to-down,.wave-down,.wave-pink,.wave-white,.tree{
+        display: none;
+    }
+    .coming-soon{
+        padding: 8px;
+    }
+    .floppa-shart{
+        width:150px
+    }
+    .time h3{
+        font-size: 18px;
+    }
+}
