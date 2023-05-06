@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
             <div className="col-md-7">
             <div className="position-relative">
-                <h2 className='title'>Big Floppa</h2>
+                <img src={images.title} alt="title" />
                 <img src={images.spring} className='spring-top position-absolute' alt="spring" />
                 <img src={images.spring} className='spring-bottom position-absolute' alt="spring" />
             </div>

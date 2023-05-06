@@ -3,7 +3,7 @@
 * {
   font-family: "Nunito", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 11px;
   color: #534741;
 }
@@ -157,4 +157,7 @@ padding: 10px 25px;
     bottom: 16px;
     right: 65px;
     z-index: -1
+}
+.w-fit-100{
+    width:100px;
 }

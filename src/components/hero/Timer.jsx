@@ -3,7 +3,7 @@ import Countdown from "react-countdown";
 
 const Time = ({ value, title }) => {
   return (
-    <div className="text-center w-fit">
+    <div className="text-center w-fit-100">
       <div className="time">
         <h3>{value < 10 && value > -1 ? `0${value}` : value}</h3>
       </div>
