@@ -20,11 +20,7 @@ const Hero = () => {
             <div className="hero-content">
                 <p className='font-16'>Coming soon</p>
                 <div className="remaining d-flex align-items-center gap-5">
-                    <div className="d-flex align-items-center gap-3">
-                    <Timer title={'hours'} value={'XX'}/>
-                    <Timer title={'min'} value={'XX'}/>
-                    <Timer title={'sec'} value={'XX'}/>
-                    </div>
+                    <Timer/>
         <button className='connect-wallet'>Connect wallet</button>
                 </div>
             </div>
