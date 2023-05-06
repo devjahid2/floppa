@@ -21,9 +21,9 @@ const Home = () => {
             <Social/>
         </Container>
         
-        <img src={images.wave_left} className='position-fixed left-0 bottom-0 ' alt="wave_left" />
-        <img src={images.wave_right} className='position-fixed right-0 bottom-0 wave-right-bottom' alt="wave_left" />
-        <img src={images.t_shart_floppa} className='position-fixed right-0 bottom-0 floppa-shart' alt="wave_left" />
+        <img src={images.wave_left} className='position-absolute left-0 bottom-0 ' alt="wave_left" />
+        <img src={images.wave_right} className='position-absolute right-0 bottom-0 wave-right-bottom' alt="wave_left" />
+        <img src={images.t_shart_floppa} className='position-absolute right-0 bottom-0 floppa-shart' alt="wave_left" />
         </>
     );
 }

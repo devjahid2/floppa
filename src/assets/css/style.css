@@ -224,7 +224,7 @@ padding: 10px 25px;
         width: 100% !important;
     }
     .floppa-shart{
-        right: -15px !important;
+        /* right: -15px !important; */
         width:260px;
     }
     .timer {
