@@ -15,7 +15,7 @@ const ResponsiveHero = () => {
 
             <div className="d-flex flex-column-reverse flex-md-row gap-2 justify-content-between position-relative">
                 <div className="position-relative w-50 floppa_money_wrap">
-                <img className='sun_img' src={images.sun} alt="sun" />
+                    <img className='sun_img' src={images.sun_md} alt="sun" />
                     <img className='w-100 w-sm-75' src={images.floppa_money} alt="floppa_money" />
                 </div>
                 <div className="position-relative ">

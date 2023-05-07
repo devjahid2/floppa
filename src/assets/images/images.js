@@ -17,5 +17,6 @@ import wave_pink from './wave-pink.png'
 import tree from './tree-stracture.png'
 import spring from './spring.png'
 import title from './title.png'
+import sun_md from './sun_md.png'
 
-export const images = {title,logo,wallet,floppa_money,sun, talegram,twitter,book,medium,horse,wave_down_white,wave_down,wave_left,wave_right,t_shart_floppa,tree,wave_pink,wave_white,spring}
+export const images = {sun_md,title,logo,wallet,floppa_money,sun, talegram,twitter,book,medium,horse,wave_down_white,wave_down,wave_left,wave_right,t_shart_floppa,tree,wave_pink,wave_white,spring}
