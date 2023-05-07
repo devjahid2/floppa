@@ -22,7 +22,7 @@ const renderer = ({ hours, minutes, seconds }) => {
 };
 
 const Timer = () => {
-  return <Countdown date={"5/7/2023"} renderer={renderer} />;
+  return <Countdown date={"5/10/2023"} renderer={renderer} />;
 };
 
 export default Timer;
