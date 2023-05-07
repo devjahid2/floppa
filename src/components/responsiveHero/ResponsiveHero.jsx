@@ -28,4 +28,4 @@ const ResponsiveHero = () => {
     );
 }
 
-export default ResponsiveHero;
+export default ResponsiveHero
