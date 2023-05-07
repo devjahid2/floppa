@@ -52,10 +52,17 @@ button {
   text-transform: uppercase;
   font-family: "Nunito", sans-serif;
 }
+.wallet img{
+    width: 20px;
+}
+.logo{
+    max-width: 120px;
+}
 .sun_img{
     position: absolute;
     top: -90px;
-    right:0
+    right:0;
+    width: 170px;
 }
 .hero-content{
     margin-top: 108px;
@@ -120,9 +127,12 @@ padding: 10px 25px;
     bottom: -27px;
     left: 80px;
 }
+.floppa-shart{
+    width: 221px;
+}
 .man-up-horse{
     position:absolute;
-    left:62;
+    width: 135px;
     top: 0;
 }
 .wave-to-down{
