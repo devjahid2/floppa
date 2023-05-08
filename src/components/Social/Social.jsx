@@ -8,13 +8,13 @@ import { SiGitbook } from 'react-icons/si';
 const Social = () => {
     return (
         <div className='d-flex flex-column justify-content-md-center flex-md-row align-items-start align-items-md-center justify-content-start gap-3 mt-5'>
-            <SocialButton url={'https://domain.com'} title={'Telegram'}>
+            <SocialButton url={'https://t.me/BigFloppaPortal'} title={'Telegram'}>
                 <BsTelegram className='font-20' />
             </SocialButton>
-            <SocialButton url={'https://domain.com'} title={'Twitter'}>
+            <SocialButton url={'https://twitter.com/floppa_eth'} title={'Twitter'}>
                 <AiFillTwitterCircle className='font-20'/>
             </SocialButton>
-            <SocialButton url={'https://domain.com'} title={'Medium'}>
+            <SocialButton url={'https://medium.com/@BigFloppa'} title={'Medium'}>
                 <BsMedium className='font-20'/>
             </SocialButton>
             <SocialButton url={'https://domain.com'} title={'Book'}>

@@ -19,7 +19,7 @@ const ResponsiveHero = () => {
                     <img className='w-100 w-sm-75' src={images.floppa_money} alt="floppa_money" />
                 </div>
                 <div className="position-relative ">
-                <p className='font-16'>Coming soon</p>
+                {/* <p className='font-16'>Coming soon</p> */}
                     <Timer/>
                     <Button className={'mt-4 w-100'}/>
                 </div>

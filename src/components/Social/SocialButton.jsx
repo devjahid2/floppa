@@ -1,7 +1,7 @@
 import React from 'react';
 const SocialButton = ({children,title,url}) => {
     return (
-        <a href={url} className='d-flex gap-2 align-items-center social-button'>
+        <a target='blank' href={url} className='d-flex gap-2 align-items-center social-button'>
             {
                 children
             }

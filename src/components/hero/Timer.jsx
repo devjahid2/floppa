@@ -14,9 +14,14 @@ const Time = ({ value, title }) => {
 const renderer = ({ hours, minutes, seconds }) => {
   return (
     <div className="timer d-flex align-items-center gap-3">
-      <Time title={"hours"} value={hours} />
+
+      {/* <Time title={"hours"} value={hours} />
       <Time title={"min"} value={minutes} />
-      <Time title={"sec"} value={seconds} />
+      <Time title={"sec"} value={seconds} /> */}
+
+      <Time title={"hours"} value={'XX'} />
+      <Time title={"min"} value={'XX'} />
+      <Time title={"sec"} value={'XX'} />
     </div>
   );
 };
