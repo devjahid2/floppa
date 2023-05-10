@@ -1,7 +1,7 @@
 import React from 'react';
 import { images } from '../../assets/images/images';
-import Timer from './Timer';
 import Button from '../Button/Button';
+import Input from '../input/Input';
 
 
 
@@ -21,8 +21,8 @@ const Hero = () => {
             <div className="hero-content">
                 {/* <p className='font-16'>Coming soon</p> */}
                 <div className="remaining d-flex align-items-center gap-5">
-                    <Timer/>
-       <Button/>
+                    <Input button={true} placeholder={'00.00'} defaultValue={'00.00'}/>
+                    <Button text={'Claim'}/>
                 </div>
             </div>
             </div>
