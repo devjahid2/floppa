@@ -17,7 +17,7 @@ const Social = () => {
             <SocialButton url={'https://medium.com/@BigFloppa'} title={'Medium'}>
                 <BsMedium className='font-20'/>
             </SocialButton>
-            <SocialButton url={'https://domain.com'} title={'Book'}>
+            <SocialButton url={'https://domain.com'} title={'GitBook'}>
                 <SiGitbook className='font-20'/>
             </SocialButton>
         </div>
