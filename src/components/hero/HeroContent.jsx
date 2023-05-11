@@ -17,9 +17,15 @@ const HeroContent = () => {
                     </div>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    <Dropdown.Item className='d-flex align-items-center gap-3' href="#/action-1">
+                        <img className='eth' src={images.eth} alt="eth"  /> ETH
+                    </Dropdown.Item>
+                    <Dropdown.Item className='d-flex align-items-center gap-3' href="#/action-1">
+                        <img className='eth' src={images.eth} alt="eth"  /> ETH
+                    </Dropdown.Item>
+                    <Dropdown.Item className='d-flex align-items-center gap-3' href="#/action-1">
+                        <img className='eth' src={images.eth} alt="eth"  /> ETH
+                    </Dropdown.Item>
                 </Dropdown.Menu>
                     </Dropdown>
                 </div>
