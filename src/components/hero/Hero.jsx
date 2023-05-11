@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="col-md-5 position-relative">
                 <img className='w-100' src={images.floppa_money} alt="floppa money" />
                 {/* <img className="sun_img" src={images.sun} alt="sun" /> */}
-                <img className='title position-absolute right-0' src={images.title} alt="title" />
+                <img className='title position-absolute' src={images.title} alt="title" />
             </div>
             <div className="col-md-7">
             <div className="position-relative">

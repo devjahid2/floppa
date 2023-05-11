@@ -40,11 +40,11 @@ outline: none;
     font-family: 'Grongert';
     width: 100%;
 }
-.title{
-    width: 100%;
-    right: -85%;
-    top: -20%;
-    z-index:1
+.title {
+    width: 65%;
+    right: -47%;
+    top: -25%;
+    z-index: 1;
 }
 button {
   border: none;
@@ -258,10 +258,13 @@ color: #534741;
     .hero-content{
         margin-left: 0;
     }
+    .hero-content{
+        width: 100%;
+    }
     .title{
         margin-top: -30px;
-        margin-bottom: 90px;
-        width: 100%;
+        margin-bottom: 20px;
+        width: 65%;
     }
 
     .sun_img{
