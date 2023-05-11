@@ -27,10 +27,10 @@ text-transform:uppercase
 body{
     min-height: 100vh;
 }
-.input-amount{
+input{
     background:#E9E3DB;
 border-radius: 16px;
-margin-top: -17px;
+/* margin-top: -17px; */
 color: #AFA49F;
 font-size: 20px;
 padding: 8px 25px;
@@ -42,6 +42,9 @@ outline: none;
 }
 .title{
     width: 100%;
+    right: -85%;
+    top: -20%;
+    z-index:1
 }
 button {
   border: none;
@@ -55,9 +58,14 @@ button {
     background-color: #FBB03B !important;
     border-radius: 16px;
     color:#fff;
-    position: absolute;
+    
     right:0;
     top: 0;
+}
+.head-text{
+    font-family: 'Grongert';
+font-size: 32px;
+text-align: center;
 }
 .font-20{font-size:20px}
 .wallet {
@@ -112,7 +120,7 @@ button {
     background-color: #009245;
     padding: 8px 25px;
     padding-top: 10px;
-    margin-top: -17px;
+    /* margin-top: -17px; */
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 100;
@@ -192,12 +200,64 @@ padding: 10px 25px;
 .w-fit-100{
     width:100px;
 }
+.hero-content{
+    width:max-content;
+    padding: 24px;
+    background: #F9F5F1;
+    box-shadow: 0px 12.5216px 11.1442px rgba(175, 164, 159, 0.08), 0px 2.76726px 2.46286px rgba(175, 164, 159, 0.0449833);
+border-radius: 24px;
+margin-left: 100px;
+margin-top: 0;
+}
+#dropdown-basic{
+    background: #E9E3DB;
+    border-radius: 16px;
+    border:none;
+    padding: 8px 25px;
+    outline: none;
+    width: 100%;
+    color: #534741;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#dropdown-basic div{
+    font-family: 'Grongert';
+    font-size: 20px;
+    font-weight: 100;
+}
+.dropdown-menu.show{
+    width: 100%;
 
+}
 
+.border-line{
+    height: 1px;
+    width: 100%;
+    background-color:#F8E3CB
+}
+.balance p{
+    font-weight: 400;
+font-size: 16px;
+}
+.balance p span{
+    font-weight: 700;
+font-size: 16px;
+color: #534741;
+}
+.profile p{
+    font-size: 20px;
+}
+.btn-check:focus+.btn, .btn:focus,.btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle,.btn-check:active+.btn-success:focus, .btn-check:checked+.btn-success:focus, .btn-success.active:focus, .btn-success:active:focus, .show>.btn-success.dropdown-toggle:focus{
+    box-shadow: none;
+}
 @media (max-width:1200px) {
     /* .coming-soon,.none-md{
         display: none;
     } */
+    .hero-content{
+        margin-left: 0;
+    }
     .title{
         margin-top: -30px;
         margin-bottom: 90px;

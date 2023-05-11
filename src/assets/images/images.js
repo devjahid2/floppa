@@ -18,5 +18,7 @@ import tree from './tree-stracture.png'
 import spring from './spring.png'
 import title from './title.png'
 import sun_md from './sun_md.png'
-
-export const images = {sun_md,title,logo,wallet,floppa_money,sun, talegram,twitter,book,medium,horse,wave_down_white,wave_down,wave_left,wave_right,t_shart_floppa,tree,wave_pink,wave_white,spring}
+import eth from './eth.png'
+import arrow_up_down from './arrow-down-arrow-up-square.png'
+import floppa_profile from './floppa_profile.png'
+export const images = {floppa_profile,arrow_up_down,eth,sun_md,title,logo,wallet,floppa_money,sun, talegram,twitter,book,medium,horse,wave_down_white,wave_down,wave_left,wave_right,t_shart_floppa,tree,wave_pink,wave_white,spring}

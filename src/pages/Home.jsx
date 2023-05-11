@@ -6,7 +6,7 @@ import CommingSoon from '../components/commingSoon/CommingSoon';
 import Social from '../components/Social/Social';
 import { images } from '../assets/images/images';
 import useWindowWidth from '../hooks/useWindowWidth';
-import ResponsiveHero from '../components/responsiveHero/ResponsiveHero';
+import ResponsiveHero from '../components/hero/ResponsiveHero';
 
 const Home = () => {
     const tabletWidth = useWindowWidth(1200);
