@@ -13,7 +13,7 @@ const HeroContent = () => {
                     <Dropdown className='w-50'>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                     <div>
-                        <img src={images.eth} alt="eth"  /> ETH
+                        <img className='eth' src={images.eth} alt="eth"  /> ETH
                     </div>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
@@ -34,7 +34,7 @@ const HeroContent = () => {
                     <div className="d-flex align-items-center gap-3">
                     <Input className={'w-50'} defaultValue={'00.00'} placeholder={'00.00'}/>
                     <div className="div w-50 d-flex align-items-center gap-3 profile">
-                        <img src={images.floppa_profile} alt="profile" /><p>Floppa</p>
+                        <img src={images.floppa_profile} className='profile' alt="profile" /><p>Floppa</p>
                     </div>
                     </div>
                 </div>

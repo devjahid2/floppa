@@ -230,7 +230,18 @@ margin-top: 0;
     width: 100%;
 
 }
-
+.arrow {
+    width: 25px;
+    height: 24px;
+}
+.eth{
+    width:28px;
+    height: 27px;
+}
+.profile{
+    width: 37px;
+    /* height: 34px; */
+}
 .border-line{
     height: 1px;
     width: 100%;
